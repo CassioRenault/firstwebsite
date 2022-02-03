@@ -1,0 +1,136 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;  
+    overflow-x: hidden;  
+   
+}
+
+.logo{
+    width: 50%;
+    cursor: pointer;
+}
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.menu{
+    padding-top: 0px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.about{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    right: 10px;
+    top: 0;
+
+}
+
+.social img{
+    display: block;
+   margin: 20px 0;
+}
+
+.text{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1{
+    font-size: 60px;
+    color: white;
+}
+
+.text p{
+    
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.text button{
+    border: 0;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height:30px;
+    cursor: pointer;
+}
+
+.text button{
+    transition-duration: 0.4s;
+}
+
+.text button:hover {
+    background-color: sandybrown;
+    
+}
+
+.fadetext{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+}
+
